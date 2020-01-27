@@ -1,11 +1,15 @@
 {
   "name": "node-poc",
   "version": "1.0.0",
-   "scripts": {
+  "scripts": {
     "start": "node app.js"
   },
   "dependencies": {
+    "adm-zip": "^0.4.13",
     "express": "^4.17.1",
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "fs-extra": "^8.1.0",
+    "jsforce": "^1.9.3",
+    "url": "^0.11.0"
   }
 }
