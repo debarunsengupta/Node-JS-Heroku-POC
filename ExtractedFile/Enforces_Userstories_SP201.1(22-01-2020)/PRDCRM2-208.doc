@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#PRDCRM2-208] Sprint 1.Technical Enabler: Intelligent Data Extraction - Define Data Model Census/Census Members</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://jira.anthem.com/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [PRDCRM2-208]&nbsp;<a href="https://jira.anthem.com/browse/PRDCRM2-208">Sprint 1.Technical Enabler: Intelligent Data Extraction - Define Data Model Census/Census Members</a>
+            <span class="subText">
+               Created: 01/9/2020                   &nbsp;Updated: 01/21/2020
+
+                                    &nbsp;Due: 01/21/2020
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Test Ready</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://jira.anthem.com/secure/BrowseProject.jspa?id=54750">PRDCRM2</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                                        <a title="SFA Program Increment 201"
+                href="https://jira.anthem.com/issues/?jql=project%3D54750%20AND%20%22fixVersion%22%3D173847%20ORDER%20BY%20priority%20ASC"
+            >SFA Program Increment 201</a>                        </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  colspan="3" >
+            Story
+        </td>
+
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="AG56060" id="word_reporter_AG56060" href="https://jira.anthem.com/secure/ViewProfile.jspa?name=AG56060">Pascalau, Bogdan</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="AG63791" id="word_assignee_AG63791" href="https://jira.anthem.com/secure/ViewProfile.jspa?name=AG63791">Smith, Kelci J</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-6284199-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                    <img src="https://jira.anthem.com/images/icons/attach/powerpoint.gif" height="16" width="16" border="0" alt="Microsoft PowerPoint">
+                    Symphony_NLP Data Model_v2.pptx &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+            <tr>
+            <td bgcolor="#f0f0f0" width="20%" valign="top">
+                <b>Issue Links:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" class="noPadding">
+                <table cellpadding="0" cellspacing="0" border="0" width="100%" class="blank">
+                                            <tr>
+                            <td colspan="4" bgcolor="#f0f0f0">
+                                <b>Cloners</b><br/>
+                            </td>
+                        </tr>
+                                    <tr>
+            <td>
+                clones
+            </td>
+            <td>
+                <a href="https://jira.anthem.com/browse/PRDCRM2-199">
+                     PRDCRM2-199                 </a>
+            </td>
+            <td>
+                Sprint 1.Technical Enabler: Intellige...
+            </td>
+            <td>
+                Test Ready
+            </td>
+        </tr>
+                                        <tr>
+            <td>
+                is cloned by
+            </td>
+            <td>
+                <a href="https://jira.anthem.com/browse/PRDCRM2-213">
+                     PRDCRM2-213                 </a>
+            </td>
+            <td>
+                Intelligent Data Extraction - Define ...
+            </td>
+            <td>
+                In Progress
+            </td>
+        </tr>
+                                        </table>
+            </td>
+        </tr>
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Blocked By:</b></td>
+                <td id="customfield_13920-6284199-value" class="value" bgcolor="#ffffff" width="80%">
+
+
+    <div class="shorten" id="customfield_13920-field">
+        							<span>Not Blocked</span>			            </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Acceptance Criteria:</b></td>
+                <td id="customfield_12027-6284199-value" class="value" bgcolor="#ffffff" width="80%">      <p>Placeholder Enabler Story</p>
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>IT Team:</b></td>
+                <td id="customfield_12479-6284199-value" class="value" bgcolor="#ffffff" width="80%">
+
+
+    <div class="shorten" id="customfield_12479-field">
+        							<span>CRM2-Enforcers</span>			            </div>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story Points:</b></td>
+                <td id="customfield_11222-6284199-value" class="value" bgcolor="#ffffff" width="80%">    1
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_11224-6284199-value" class="value" bgcolor="#ffffff" width="80%">201.1 Enforcers 01/09-01/22</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Epic Link:</b></td>
+                <td id="customfield_11225-6284199-value" class="value" bgcolor="#ffffff" width="80%">
+    <a class="aui-label ghx-label-11" href="https://jira.anthem.com/browse/PRDCRM2-129">
+        Intelligent Data Extraction NLP: Priority 1 NLP Documentation - Symphony
+    </a>
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Work ID:</b></td>
+                <td id="customfield_17220-6284199-value" class="value" bgcolor="#ffffff" width="80%">
+<div class="nfeed-field" style="display:none;" data-field-id="customfield_17220"></div>
+WID38592.0038592 Symphony (Open)
+
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Work ID No:</b></td>
+                <td id="customfield_16920-6284199-value" class="value" bgcolor="#ffffff" width="80%">
+<div class="nfeed-field" style="display:none;" data-field-id="customfield_16920"></div>
+38592
+
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Wave ID:</b></td>
+                <td id="customfield_17120-6284199-value" class="value" bgcolor="#ffffff" width="80%">
+<div class="nfeed-field" style="display:none;" data-field-id="customfield_17120"></div>
+206783
+
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>System List:</b></td>
+                <td id="customfield_17620-6284199-value" class="value" bgcolor="#ffffff" width="80%">
+<div class="nfeed-field" style="display:none;" data-field-id="customfield_17620"></div>
+Salesforce.com - Commercial SFA (Active)
+
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Barometer No:</b></td>
+                <td id="customfield_16720-6284199-value" class="value" bgcolor="#ffffff" width="80%">
+<div class="nfeed-field" style="display:none;" data-field-id="customfield_16720"></div>
+041800000DTG
+
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Define the Data Model for Census and Census Members</p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-5700490"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="AC54161" id="word_commented_AC54161" href="https://jira.anthem.com/secure/ViewProfile.jspa?name=AC54161">Sripada, Krishna</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">01/17/2020</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-5700490"><td bgcolor="#ffffff">
+            <p>Shylaja working on Data Model for Census/Census Members - will attach the final document by 1/22</p>
+        </td></tr>
+                <tr id="comment-header-5715407"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="AG57385" id="word_commented_AG57385" href="https://jira.anthem.com/secure/ViewProfile.jspa?name=AG57385">Bommineni, Shyalaja</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">01/21/2020</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-5715407"><td bgcolor="#ffffff">
+            <p>[Smith, Kelci J[Pandey, Animesh[Sripada, Krishna</p>
+
+<p>Prepared and presented to Arch team. Please find attached PPT and provide us the sign-off.</p>
+        </td></tr>
+            </table>
+Generated at Wed Jan 22 01:40:33 EST 2020 by Asthana, Garvita using Jira 8.5.0#805000-sha1:facbf8be6a56ed8ab71dea158b6e159962506101.
+
+</body>
+</html>
